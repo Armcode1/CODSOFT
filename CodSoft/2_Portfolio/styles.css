@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+color: white;
+font-family: 'Poppins', sans-serif;
+}      
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 80px;
+background-color: rgb(16, 5, 61);
+}
+ul{
+display: flex;
+justify-content: center;
+
+}
+nav ul li a{
+text-decoration: none;
+color: white;
+}
+nav ul li a:hover{
+color: cyan;
+font-size: 1.05rem;
+}
+nav ul li{
+list-style: none;
+margin: 0 23px;
+}
+
+.left {
+font-size: 1.5rem;
+}
+.firstsection{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin: 50px 0;
+
+
+}
+.firstsection div{
+width: 70%;
+
+}
+
+.leftsection{
+font-size: 2.5rem;
+margin: 100px;
+width: 50px; ;
+
+
+
+
+
+
+}
+.color{
+margin-top: 0px;
+margin-bottom: 10px;
+font-family: sans-serif;
+font-size: 6rem;
+background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 2.5rem;
+}
+.rightsection img{
+width: 400px;
+margin-left: 100px;
+margin-bottom: 50px;
+
+
+
+
+
+}
+.dev{
+color: rgb(245, 245, 247);
+font-size: 2rem;
+}
+.social-icons {
+display: flex;
+
+
+gap: 20px; 
+margin: 30px;
+font-size: 10px;
+
+
+
+
+}
+
+
+
+
+
+.facebook img{
+width: 30px;
+
+}
+.facebook :hover{
+    background-color: #0056b3;
+}
+
+
+
+.instagram img{
+size: 50px;
+width: 30px;
+align-items: center;
+}
+
+.instagram :hover{
+    background-color: rgb(236, 76, 76);
+}
+.Linkedin img{
+width: 30px;
+
+
+
+}
+
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f0f0f0;
+}
+
+
+.skills {
+margin: 20px;
+padding: 20px;
+background-color: rgb(153, 208, 235);
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+}
+
+li {
+margin-bottom: 20px;
+}
+
+h3 {
+font-size: 20px;
+color: #007BFF;
+}
+
+p {
+font-size: 16px;
+color: #333;
+}
+
+footer {
+text-align: center;
+padding: 10px;
+background-color: #007BFF;
+color: white;
+}
+
+.About Me{
+    height: 100vh;
+    width: 100%;
+    padding: 90px 0;
+    background: #ddd;
+}
+  .about{
+    width: 1130px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #ddd;
+  }
+  .text{
+    width: 540px;
+  }
+  .text h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .text h5{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  span{
+    color: #4070f4;
+  }
+  .text p{
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+  }
+  .data{
+    margin-top: 30px;
+  }
+  .hire{
+    font-size: 18px;
+    background: #4070f4;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+  }
+  .hire:hover{
+    background: #000;
+    border: 1px solid #4070f4;
+  }
+
+
+
+
+/* Reset some default styles */
+
+
+/* Style for the line partition */
+.line {
+    height: 1px; /* Adjust the height of the line as needed */
+    background-color: cyan; /* Color of the line */
+    margin: 20px 0; /* Margin to create space above and below the line */
+}
+
+/* Style for the content below the line */
+.content {
+    text-align: center;
+    padding: 20px;
+}
+.white{
+    color: #ccc;
+}
+
+.resume-button {
+    display: inline-block;
+    padding: 0.5px 0.5px;
+    background-color: #6b6c6e; /* Button background color */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px;
+    font-size: 12px;
+    font-style: bold;
+    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+    margin: 50px;
+    margin-top: 0.5px;
+
+
+}
+
+/* Change the button color on hover */
+.resume-button:hover {
+    background-color: cyan; /* New background color on hover */
+}
+
+.Line{
+    height: 1px; /* Adjust the height of the line as needed */
+    background-color: cyan; /* Color of the line */
+    margin: 20px 0;
+}
+
+/* Style for the skills section */
+.skills-section {
+    
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Style for the skills list */
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #050606;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 150px;
+    box-shadow: 0 2px 4px rgba(0, 65, 10, 0.1);
+}
+
+/* Style for skill names */
+.skill-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Style for skill levels */
+.skill-level {
+    color: #1bc1c7;
+    margin-top: 8px;
+}
+.Lin{
+    height: 1px; /* Adjust the height of the line as needed */
+    background-color: cyan; /* Color of the line */
+    margin: 20px 0;
+
+}
+
+.projects-section {
+    
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Style for the projects list */
+.projects-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    background-color: #000000;
+    border: 1px solid #060606;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Style for project titles */
+.project-title {
+    font-size: 20px;
+    margin: 0;
+}
+
+/* Style for project descriptions */
+.project-description {
+    color: #555;
+}
+.project-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+.linn{
+    height: 1px; /* Adjust the height of the line as needed */
+    background-color: cyan; /* Color of the line */
+    margin: 20px 0;
+}
+
+/* Add your custom styling here */
+.container {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 4px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer{
+    text-align: right;
+    background-color:#333;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+.linnn{
+    height: 0.5px; /* Adjust the height of the line as needed */
+    background-color: cyan; /* Color of the line */
+    margin: 8px 0;
+}
